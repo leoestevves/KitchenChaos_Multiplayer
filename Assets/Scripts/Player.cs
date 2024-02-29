@@ -62,6 +62,11 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
 
     private void Update()
     {
+        if (!IsOwner) //Apenas o player local vai receber true
+        {
+            return;
+        }
+
         HandleMovement();
         HandleInteractions();
     }
