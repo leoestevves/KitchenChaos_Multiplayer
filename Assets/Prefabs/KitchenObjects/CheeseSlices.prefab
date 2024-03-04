@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8649679813510791275}
   - component: {fileID: 4461739762949215515}
+  - component: {fileID: 4552603605557718022}
   m_Layer: 0
   m_Name: CheeseSlices
   m_TagString: Untagged
@@ -46,6 +47,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kitchenObjectSO: {fileID: 11400000, guid: 9577ea275d0f54e458092dcb7ed08be6, type: 2}
+--- !u!114 &4552603605557718022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460487740021000180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1001 &422506355203159962
 PrefabInstance:
   m_ObjectHideFlags: 0
