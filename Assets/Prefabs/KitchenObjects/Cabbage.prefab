@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8649679813510791275}
   - component: {fileID: 4461739762949215515}
   - component: {fileID: -7809136380435298906}
+  - component: {fileID: 3435152837683754210}
   m_Layer: 0
   m_Name: Cabbage
   m_TagString: Untagged
@@ -63,6 +64,18 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
+--- !u!114 &3435152837683754210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460487740021000180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5a68f0644a4004bb039a86016d6caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2600502895264547495
 PrefabInstance:
   m_ObjectHideFlags: 0

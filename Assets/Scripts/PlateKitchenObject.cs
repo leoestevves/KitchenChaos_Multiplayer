@@ -17,8 +17,9 @@ public class PlateKitchenObject : KitchenObject
     private List<KitchenObjectSO> kitchenObjectSOList;
 
 
-    private void Awake()
+    protected override void Awake() //Dessa forma roda primeiro o Awake do script KitchenObject, fazendo com que NAO cause um nullreference
     {
+        base.Awake();
         kitchenObjectSOList = new List<KitchenObjectSO>();
     }
     public bool TryAddIngredient(KitchenObjectSO kitchenObjectSO)
