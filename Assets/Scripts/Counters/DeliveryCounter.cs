@@ -19,8 +19,9 @@ public class DeliveryCounter : BaseCounter
             {
                 //Aceita apenas se estiver carregando um prato
 
-                DeliveryManager.Instance.DeliveryRecipe(plateKitchenObject);                
-                player.GetKitchenObject().DestroySelf();
+                DeliveryManager.Instance.DeliveryRecipe(plateKitchenObject); 
+                
+                KitchenObject.DestroyKitchenObject(player.GetKitchenObject());
             }
             
         }
