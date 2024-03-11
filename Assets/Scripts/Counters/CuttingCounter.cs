@@ -59,7 +59,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
                     //Player ta carregando um prato                    
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
                     {
-                        GetKitchenObject().DestroySelf();
+                        KitchenObject.DestroyKitchenObject(GetKitchenObject());
                     }
                 }
             }
