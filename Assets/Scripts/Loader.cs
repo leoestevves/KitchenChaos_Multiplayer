@@ -24,7 +24,7 @@ public static class Loader
         SceneManager.LoadScene(Scene.LoadingScene.ToString());   //Chamando a cena do loading
     }
 
-    public static void LoadNetwork(Scene tartgetScene)
+    public static void LoadNetwork(Scene targetScene)
     {
         NetworkManager.Singleton.SceneManager.LoadScene(targetScene.ToString(), LoadSceneMode.Single);
     }

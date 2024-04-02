@@ -63,7 +63,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: CuttingCounter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4555825046220631011, guid: 5c241950fbf22b2448cecb58f9232926, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1406621100720951686, guid: 5c241950fbf22b2448cecb58f9232926,
@@ -83,6 +84,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4455346274252162758}
+    - targetCorrespondingSourceObject: {fileID: 6985501390430159498, guid: 5c241950fbf22b2448cecb58f9232926,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6108455218026197125}
   m_SourcePrefab: {fileID: 100100000, guid: 5c241950fbf22b2448cecb58f9232926, type: 3}
 --- !u!4 &2066266025546544102 stripped
 Transform:
@@ -119,6 +124,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ca8dcdc3ae2110a42bb09f25b3547498, type: 2}
   - {fileID: 11400000, guid: f7b25ba3ae0a1da40adf4b7af18e5e95, type: 2}
   - {fileID: 11400000, guid: 23d215bf489ccba478aae1faff4fc09a, type: 2}
+--- !u!114 &6108455218026197125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045168152535599857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1001 &3617278992617966913
 PrefabInstance:
   m_ObjectHideFlags: 0
