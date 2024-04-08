@@ -917,10 +917,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: e5bf0e62-a97b-46be-871d-eee7c6812d86
+  cloudProjectId: 99ac2e8a-2f13-4862-8e9c-1739fb4053a0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: KitchenChaos
+  projectName: Kitchen Chaos Multiplayer
   organizationId: estevves
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
