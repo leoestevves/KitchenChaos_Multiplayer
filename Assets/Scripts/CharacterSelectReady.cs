@@ -44,6 +44,7 @@ public class CharacterSelectReady : NetworkBehaviour
 
         if (allClientsReady)
         {
+            KitchenGameLobby.Instance.DeleteLobby(); //Quando a partida comeca, o lobby e destruido
             Loader.LoadNetwork(Loader.Scene.GameScene);
         }
     }
