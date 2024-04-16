@@ -3,7 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 
 using Unity.Netcode;
+using Unity.Netcode.Transports.UTP;
+using Unity.Networking.Transport.Relay;
 using Unity.Services.Authentication;
+using Unity.Services.Relay.Models;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +17,9 @@ public class KitchenGameMultiplayer : NetworkBehaviour
     private const string PLAYER_PREFS_PLAYER_NAME_MULTIPLAYER = "PlayerNameMultiplayer";
 
     public static KitchenGameMultiplayer Instance { get; private set; }
+
+
+    public static bool playMultiplayer;
 
 
     public event EventHandler OnTryingToJoinGame;
@@ -40,6 +46,19 @@ public class KitchenGameMultiplayer : NetworkBehaviour
         playerDataNetworkList = new NetworkList<PlayerData>();
         playerDataNetworkList.OnListChanged += PlayerDataNetworkList_OnListChanged;
     }
+
+    private void Start()
+    {
+        if (!playMultiplayer)
+        {
+            //Modo singleplayer
+            NetworkManager.Singleton.GetComponent<UnityTransport>().SetConnectionData("127.0.0.1", 7777);
+            StartHost();
+            Loader.LoadNetwork(Loader.Scene.GameScene);
+        }
+    }
+
+
 
     public string GetPlayerName()
     {
