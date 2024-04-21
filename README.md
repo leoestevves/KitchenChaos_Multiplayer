@@ -9,10 +9,10 @@ There's a lot of comments in the code, I know this is NOT a good clean code prac
 This project has the objective to learn and practice game development, Unity, C#, clean code, in addition to use it as part of my portfolio.
 
 ## Introduction
-This project has been made through the free course "[Learn Unity Beginner/Intermediate 2023(FREE COMPLETE Course - Unity Tutorial)](https://www.youtube.com/watch?v=AmGSEH7QcDg&ab_channel=CodeMonkey)" by [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity). In this course, codemonkey aims to teach you how to do a more complex project, with the main focus on clean code, using more advanced programming practices.
+This project has been made through the free course "[Learn Unity Multiplayer (FREE Complete Course, Netcode for Game Objects Unity Tutorial 2023)](https://youtu.be/7glCsF9fv3s?si=i2n0kB8eqpmUaguM)" by Hugo from [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) channel. In this course, codemonkey aims to teach you how to do a more complex project, with the main focus on clean code, using more advanced programming practices.
 
 ## Application
-In the "Kitchen Chaos" project, the player controls a character inside a kitchen, the objective is to make the largest number of dishes ordered by customers within a time limit. The player can move the character and interact with the scenery, there are two interaction options, the first is to pick up/place an object, the second is to cut ingredients. Using these interactions, the player can pick up a dish, bread, fry a hamburger, cut a tomato, deliver the prepared dish to the customer, among other possibilities.
+In the "Kitchen Chaos Multiplayer" project, the player controls a character inside a kitchen, the objective is to make the largest number of dishes ordered by customers within a time limit. The player can move the character and interact with the scenery, there are two interaction options, the first is to pick up/place an object, the second is to cut ingredients. Using these interactions, the player can pick up a dish, bread, fry a hamburger, cut a tomato, deliver the prepared dish to the customer, among other possibilities.
 
 Game gif:
 <p align="center">
@@ -22,6 +22,10 @@ Game gif:
 The game has support for mouse/keyboard and gamepad, some customizations for the user, options to change background music, sound effects, and an interaction menu for customizing keys.
 
 Print menu options: ![](ReadmeFiles/Print1Options.png)
+
+In the multiplayer version of the game, players create a lobby and then go to character select scene, where it is possible to see all the players in the lobby and choose the color each one wants to use.
+
+Print character select scene: 
 
 ## Assets
 All the assets were distributed for free by [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) for the course.
@@ -45,10 +49,10 @@ Tem diversos comentários no código desse projeto, tenho ciência de que essa N
 Esse projeto tem o objetivo de praticar desenvolvimento de jogos, Unity3D, C#, práticas de clean code, além de usá-lo como parte do meu portfólio.
 
 ## Introdução
-Esse projeto foi realizado no curso gratuito "[Learn Unity Beginner/Intermediate 2023(FREE COMPLETE Course - Unity Tutorial)](https://www.youtube.com/watch?v=AmGSEH7QcDg&ab_channel=CodeMonkey)" pelo [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity). Nesse curso, o codemonkey tem o intuito de ensinar a fazer um projeto um pouco mais complexo, com foco principal em clean code, ou seja, utilizando práticas de programação mais avançadas.
+Esse projeto foi realizado no curso gratuito "[Learn Unity Multiplayer (FREE Complete Course, Netcode for Game Objects Unity Tutorial 2023)](https://youtu.be/7glCsF9fv3s?si=i2n0kB8eqpmUaguM)" pelo Hugo do canal [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity). Nesse curso, o codemonkey tem o intuito de ensinar a fazer um projeto um pouco mais complexo, com foco principal em clean code, ou seja, utilizando práticas de programação mais avançadas.
 
 ## Aplicação
-No projeto "Kitchen Chaos" o jogador controla um personagem dentro de uma cozinha, o objetivo é fazer a maior quantidade de pratos pedidos pelos clientes dentro de um limite de tempo. O jogador pode mover o personagem e interagir com o cenário, existem duas opções de interações, a primeira é de pegar e/ou colocar um objeto, a segunda é de cortar ingredientes. Utilizando essas interações, o jogador pode pegar um prato, pão, fritar um hamburger, cortar um tomate, entregar o prato feito para o cliente, entre outras possibilidades.
+No projeto "Kitchen Chaos Multiplayer" o jogador controla um personagem dentro de uma cozinha, o objetivo é fazer a maior quantidade de pratos pedidos pelos clientes dentro de um limite de tempo. O jogador pode mover o personagem e interagir com o cenário, existem duas opções de interações, a primeira é de pegar e/ou colocar um objeto, a segunda é de cortar ingredientes. Utilizando essas interações, o jogador pode pegar um prato, pão, fritar um hamburger, cortar um tomate, entregar o prato feito para o cliente, entre outras possibilidades.
 
 Gif do jogo:
 <p align="center">
@@ -58,6 +62,10 @@ Gif do jogo:
 O jogo possui suporte para mouse/teclado e gamepad, além de algumas customizações para o usuário, como opções de alterar música de fundo, efeitos sonoros, e um menu de interação para customização de teclas dentro do jogo, sejam elas para teclado ou gamepad.
 
 Print menu options: ![](ReadmeFiles/Print1Options.png)
+
+Na versão multiplayer do jogo, os jogadores criam um lobby e em seguida vão para a escolha de personagens, onde é possível ver todos os jogadores da partida e escolher a cor que cada um deseja utilizar.
+
+Print escolha de personagem:
 
 ## Assets
 Todos os assets foram distribuidos gratuitamente pelo [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) para a realização do curso.
