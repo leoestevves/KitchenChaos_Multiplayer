@@ -16,7 +16,7 @@ In the "Kitchen Chaos Multiplayer" project, the player controls a character insi
 
 Game gif:
 <p align="center">
-<img src="ReadmeFiles/Video1Gameplay.gif" width="600px">
+<img src="ReadmeFiles/Gif1Gameplay.gif" width="600px">
 </p>
 
 The game has support for mouse/keyboard and gamepad, some customizations for the user, options to change background music, sound effects, and an interaction menu for customizing keys.
@@ -25,15 +25,17 @@ Print menu options: ![](ReadmeFiles/Print1Options.png)
 
 In the multiplayer version of the game, players create a lobby and then go to character select scene, where it is possible to see all the players in the lobby and choose the color each one wants to use.
 
-Print character select scene: 
+Print character select scene: ![](ReadmeFiles/Print2CharacterSelect.png)
 
 ## Assets
 All the assets were distributed for free by [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) for the course.
 
 ## Conclusion
-This project was by far the most complex I ever made, all the code is based in clean code practices, which ended up being a challenge especially at the beginning, as I had never done a project of this level and with a large amount of scripts.
+This project is a sequel from my last project, in the first "Kitchen Chaos" the player was alone, it was a completely single player game, in "Kitchen Chaos Multiplayer" the idea was to take a project that was already done and turn it into multiplayer.
 
-Refactoring is another topic that I had difficulty in the beginning of the course, my mentality was always to try to plan the entire project's code before starting, and can ben work in small projects, but in a more complex one it's just impossible, and I saw that in this course. [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) refactored the code several times, adapting the code to what he needed at that moment, this is definitely a mentality that I need to work on for my next projects.
+I thought it would be easy to turn Kitchen Chaos into multiplayer, since the project was done, however I couldn't be more wrong. The entire transition from single player to multiplayer was much more difficult than I thought, building the entire relationship between server and client, what will be shown to the client, or what remains only on the server, all of this was quite a incredible learning experience and made me have a greater understanding of how a server works.
+
+Thanks again to Hugo from [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) channel for making such high-level content available for free.
 
 The finished game will be on my [Itch.io](https://estevves.itch.io/) page.
 
@@ -56,7 +58,7 @@ No projeto "Kitchen Chaos Multiplayer" o jogador controla um personagem dentro d
 
 Gif do jogo:
 <p align="center">
-<img src="ReadmeFiles/Video1Gameplay.gif" width="600px">
+<img src="ReadmeFiles/Gif1Gameplay.gif" width="600px">
 </p>
 
 O jogo possui suporte para mouse/teclado e gamepad, além de algumas customizações para o usuário, como opções de alterar música de fundo, efeitos sonoros, e um menu de interação para customização de teclas dentro do jogo, sejam elas para teclado ou gamepad.
@@ -65,15 +67,17 @@ Print menu options: ![](ReadmeFiles/Print1Options.png)
 
 Na versão multiplayer do jogo, os jogadores criam um lobby e em seguida vão para a escolha de personagens, onde é possível ver todos os jogadores da partida e escolher a cor que cada um deseja utilizar.
 
-Print escolha de personagem:
+Print escolha de personagem: ![](ReadmeFiles/Print2CharacterSelect.png)
 
 ## Assets
-Todos os assets foram distribuidos gratuitamente pelo [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) para a realização do curso.
+Todos os assets foram distribuidos gratuitamente pelo Hugo do canal [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) para a realização do curso.
 
 ## Conclusão
-Esse projeto foi de longe o mais complexo que eu já realizei, todo o código é baseado em práticas de clean code, o que acabou sendo um desafio principalmente no começo, já que eu nunca tinha feito um projeto desse nível e com uma quantidade grande de scripts.
+Esse projeto foi uma continuação do projeto anterior, no primeiro "Kitchen Chaos" o jogador estava sozinho, era um jogo completamente single player, já no "Kitchen Chaos Multiplayer" a ideia era pegar um projeto que já estava pronto e transformá-lo em multiplayer.
 
-Refatoração é um outro tópico que eu tive dificuldade no começo do curso, a minha mentalidade sempre foi de tentar planejar o código todo do projeto antes de começar, o que pode funcionar em projetos pequenos, mas em um mais complexo é totalmente inviável. O [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) refatorou o código diversas vezes, adaptando para o que ele precisava naquele momento, essa com certeza é uma mentalidade que eu preciso trabalhar para os meus próximos projetos.
+Eu imaginei que seria "fácil" transformar o Kitchen Chaos em multiplayer, já que o projeto estava pronto, e eu não poderia estar mais errado. Toda a transição de single player para multiplayer foi bem mais dificil do que eu imaginava, construir toda a relação entre server e client, saber o que vai ser mostrado para o client, ou o que fica só no server, tudo isso foi um aprendizado bastante incrível e me fez ter uma noção maior de como funciona um servidor.
+
+Agradeço novamente ao Hugo do canal [Codemonkey](https://www.youtube.com/@CodeMonkeyUnity) por disponibilizar um conteúdo de nível tão alto de forma gratuita.
 
 O jogo finalizado estará na minha página do [Itch.io](https://estevves.itch.io/).
 
